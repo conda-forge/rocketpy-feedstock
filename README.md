@@ -5,7 +5,7 @@ Home: https://github.com/giovaniceotto/RocketPy
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Advanced 6-DOF trajectory simulation for High-Power Rocketry.
 
