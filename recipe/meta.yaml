@@ -1,5 +1,5 @@
-{% set name = "rocketpyalpha" %}
-{% set version = "0.9.7" %}
+{% set name = "rocketpy" %}
+{% set version = "0.9.8" %}
 
 package:
   name: rocketpy
