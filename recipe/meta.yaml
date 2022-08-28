@@ -10,20 +10,25 @@ source:
   sha256: f3358bb456022e5dabf39ab38a1aacf8174bd50b9b96dde754f0b874380dd9a4
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - matplotlib-base
     - numpy >=1.0
     - python >=3.6
     - scipy >=1.0
     - requests
+    - netCDF4 >=1.4
+    - windrose >=1.6.8
+    - pytz
+    - timezonefinder
+    - simplekml
 
 test:
   imports:
