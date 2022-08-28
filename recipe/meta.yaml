@@ -17,13 +17,19 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - matplotlib-base
     - numpy >=1.0
     - python >=3.6
     - scipy >=1.0
     - requests
+    - matplotlib >= 3.0
+    - netCDF4 >= 1.4
+    - windrose>=1.6.8
+    - pytz
+    - timezonefinder
+    - simplekml
 
 test:
   imports:
