@@ -24,9 +24,8 @@ requirements:
     - python >=3.6
     - scipy >=1.0
     - requests
-    - matplotlib >= 3.0
-    - netCDF4 >= 1.4
-    - windrose>=1.6.8
+    - netCDF4 >=1.4
+    - windrose >=1.6.8
     - pytz
     - timezonefinder
     - simplekml
