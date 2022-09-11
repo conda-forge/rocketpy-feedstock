@@ -1,5 +1,5 @@
 {% set name = "rocketpy" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 
 package:
   name: rocketpy
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f3358bb456022e5dabf39ab38a1aacf8174bd50b9b96dde754f0b874380dd9a4
+  sha256: 3c59515b93e823152621dc6973f2e65a96d9cde8a04c27bdddfa774109659380
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,6 +29,9 @@ requirements:
     - pytz
     - timezonefinder
     - simplekml
+    - cftime
+    - ipython
+    - ipywidgets
 
 test:
   imports:
