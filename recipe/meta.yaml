@@ -29,6 +29,9 @@ requirements:
     - pytz
     - timezonefinder
     - simplekml
+    - cftime
+    - ipython
+    - ipywidgets
 
 test:
   imports:
