@@ -1,5 +1,5 @@
 {% set name = "rocketpy" %}
-{% set version = "0.11.1" %}
+{% set version = "0.12.0" %}
 
 package:
   name: rocketpy
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3c59515b93e823152621dc6973f2e65a96d9cde8a04c27bdddfa774109659380
+  sha256: aab4a046c6945df261402556ef066f9476165f6f049e0932d3332d4c44c3cfee
 
 build:
   number: 0
