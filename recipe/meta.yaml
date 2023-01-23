@@ -21,7 +21,7 @@ requirements:
   run:
     - matplotlib-base
     - numpy >=1.0
-    - python >=3.6
+    - python >=3.7
     - scipy >=1.0
     - requests
     - netCDF4 >=1.4
@@ -31,7 +31,8 @@ requirements:
     - simplekml
     - cftime
     - ipython
-    - ipywidgets
+    - ipywidgets >=7.6.3
+    - jsonpickle
 
 test:
   imports:
