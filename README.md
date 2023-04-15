@@ -1,11 +1,11 @@
-About rocketpy
-==============
+About rocketpy-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rocketpy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/giovaniceotto/RocketPy
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rocketpy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Advanced 6-DOF trajectory simulation for High-Power Rocketry.
 
@@ -159,6 +159,7 @@ Feedstock Maintainers
 =====================
 
 * [@Gui-FernandesBR](https://github.com/Gui-FernandesBR/)
+* [@MateusStano](https://github.com/MateusStano/)
 * [@PatrickSampaioUSP](https://github.com/PatrickSampaioUSP/)
 * [@giovaniceotto](https://github.com/giovaniceotto/)
 
