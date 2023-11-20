@@ -19,18 +19,17 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - matplotlib-base
-    - numpy >=1.0
-    - python >=3.7
+    - python >=3.8
+    - numpy >=1.13
     - scipy >=1.0
+    - matplotlib-base
+    - netCDF4 >=1.6.4
     - requests
-    - netCDF4 >=1.4
-    - windrose >=1.6.8
     - pytz
-    - timezonefinder
     - simplekml
-    - cftime
-    - ipython
+    - timezonefinder
+    - windrose >=1.6.8
+    - IPython
     - ipywidgets >=7.6.3
     - jsonpickle
 
@@ -39,7 +38,7 @@ test:
     - rocketpy
 
 about:
-  home: https://github.com/giovaniceotto/RocketPy
+  home: https://github.com/RocketPy-Team/RocketPy
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -54,8 +53,8 @@ about:
     scenarios. Furthermore, the implementation facilitates complex simulations,
     such as multi-stage rockets, design and trajectory optimization and
     dispersion analysis.
-  doc_url: https://rocketpyalpha.readthedocs.io/en/latest/
-  dev_url: https://github.com/giovaniceotto/RocketPy
+  doc_url: https://docs.rocketpy.org/en/latest/index.html
+  dev_url: https://github.com/RocketPy-Team/RocketPy
 
 extra:
   recipe-maintainers:
