@@ -1,5 +1,5 @@
 {% set name = "rocketpy" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: rocketpy
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6aecec017071ca4de867b895b0af732e78db32c8f5ae3369907147a92e097dd0
+  sha256: aeead7205fd73998b121e5c9cbe9df4b903e044d060c6167ba08b210da052adf
 
 build:
   number: 0
@@ -19,18 +19,17 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - matplotlib-base
-    - numpy >=1.0
-    - python >=3.7
+    - python >=3.8
+    - numpy >=1.13
     - scipy >=1.0
+    - matplotlib-base
+    - netCDF4 >=1.6.4
     - requests
-    - netCDF4 >=1.4
-    - windrose >=1.6.8
     - pytz
-    - timezonefinder
     - simplekml
-    - cftime
-    - ipython
+    - timezonefinder
+    - windrose >=1.6.8
+    - IPython
     - ipywidgets >=7.6.3
     - jsonpickle
 
@@ -39,7 +38,7 @@ test:
     - rocketpy
 
 about:
-  home: https://github.com/giovaniceotto/RocketPy
+  home: https://github.com/RocketPy-Team/RocketPy
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -54,12 +53,13 @@ about:
     scenarios. Furthermore, the implementation facilitates complex simulations,
     such as multi-stage rockets, design and trajectory optimization and
     dispersion analysis.
-  doc_url: https://rocketpyalpha.readthedocs.io/en/latest/
-  dev_url: https://github.com/giovaniceotto/RocketPy
+  doc_url: https://docs.rocketpy.org/en/latest/index.html
+  dev_url: https://github.com/RocketPy-Team/RocketPy
 
 extra:
   recipe-maintainers:
-    - PatrickSampaioUSP
-    - Gui-FernandesBR
-    - giovaniceotto
     - MateusStano
+    - phmbressan
+    - Gui-FernandesBR
+    - PatrickSampaioUSP
+    - giovaniceotto
