@@ -59,7 +59,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - PatrickSampaioUSP
-    - Gui-FernandesBR
-    - giovaniceotto
     - MateusStano
+    - phmbressan
+    - Gui-FernandesBR
+    - PatrickSampaioUSP
+    - giovaniceotto
