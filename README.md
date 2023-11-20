@@ -3,15 +3,15 @@ About rocketpy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rocketpy-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/giovaniceotto/RocketPy
+Home: https://github.com/RocketPy-Team/RocketPy
 
 Package license: MIT
 
 Summary: Advanced 6-DOF trajectory simulation for High-Power Rocketry.
 
-Development: https://github.com/giovaniceotto/RocketPy
+Development: https://github.com/RocketPy-Team/RocketPy
 
-Documentation: https://rocketpyalpha.readthedocs.io/en/latest/
+Documentation: https://docs.rocketpy.org/en/latest/index.html
 
 RocketPy is a trajectory simulation for High-Power Rocketry built by
 Projeto Jupiter. The code is written as a Python library and allows
@@ -160,6 +160,7 @@ Feedstock Maintainers
 
 * [@Gui-FernandesBR](https://github.com/Gui-FernandesBR/)
 * [@MateusStano](https://github.com/MateusStano/)
+* [@phmbressan](https://github.com/phmbressan/)
 * [@PatrickSampaioUSP](https://github.com/PatrickSampaioUSP/)
 * [@giovaniceotto](https://github.com/giovaniceotto/)
 
