@@ -160,7 +160,7 @@ Feedstock Maintainers
 
 * [@Gui-FernandesBR](https://github.com/Gui-FernandesBR/)
 * [@MateusStano](https://github.com/MateusStano/)
-* [@phmbressan](https://github.com/phmbressan/)
 * [@PatrickSampaioUSP](https://github.com/PatrickSampaioUSP/)
 * [@giovaniceotto](https://github.com/giovaniceotto/)
+* [@phmbressan](https://github.com/phmbressan/)
 
