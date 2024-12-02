@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
   run:
-    - python >=3.8
+    - python >=3.9
     - numpy >=1.13
     - scipy >=1.0
     - matplotlib-base
@@ -32,6 +32,9 @@ requirements:
     - IPython
     - ipywidgets >=7.6.3
     - jsonpickle
+    - imageio
+    - statsmodels
+    - prettytable
 
 test:
   imports:
@@ -61,5 +64,6 @@ extra:
     - MateusStano
     - phmbressan
     - Gui-FernandesBR
-    - PatrickSampaioUSP
-    - giovaniceotto
+    - Lucas-Prates
+    - juliomachad0
+    - LUCKIN13
