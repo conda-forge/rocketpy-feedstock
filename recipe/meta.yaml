@@ -35,6 +35,7 @@ requirements:
     - imageio
     - statsmodels
     - prettytable
+    - setuptools>=42
 
 test:
   imports:
