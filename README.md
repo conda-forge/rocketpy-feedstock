@@ -159,9 +159,9 @@ Feedstock Maintainers
 =====================
 
 * [@Gui-FernandesBR](https://github.com/Gui-FernandesBR/)
+* [@LUCKIN13](https://github.com/LUCKIN13/)
+* [@Lucas-Prates](https://github.com/Lucas-Prates/)
 * [@MateusStano](https://github.com/MateusStano/)
+* [@juliomachad0](https://github.com/juliomachad0/)
 * [@phmbressan](https://github.com/phmbressan/)
-* [@Lucas-Prates](https://github.com/Lucas-Prates)
-* [@juliomachad0](https://github.com/juliomachad0)
-* [@LUCKIN13](https://github.com/LUCKIN13)
 
