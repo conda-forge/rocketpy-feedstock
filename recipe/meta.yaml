@@ -28,6 +28,7 @@ requirements:
     - requests
     - pytz
     - simplekml
+    - dill
     - timezonefinder
     - windrose >=1.6.8
     - IPython
