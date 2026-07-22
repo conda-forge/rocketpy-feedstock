@@ -31,7 +31,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/rocketpy-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/rocketpy-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -158,9 +160,9 @@ Feedstock Maintainers
 =====================
 
 * [@Gui-FernandesBR](https://github.com/Gui-FernandesBR/)
-* [@LUCKIN13](https://github.com/LUCKIN13/)
 * [@Lucas-Prates](https://github.com/Lucas-Prates/)
 * [@MateusStano](https://github.com/MateusStano/)
 * [@juliomachad0](https://github.com/juliomachad0/)
+* [@lucasvgon](https://github.com/lucasvgon/)
 * [@phmbressan](https://github.com/phmbressan/)
 
